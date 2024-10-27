@@ -41,13 +41,13 @@ export default function Hero() {
             <div className="flex items-center">
               <div className="flex -space-x-4">
                 {[...Array(4)].map((_, i) => (
-                    <img
-                      key={i}
-                      src={`https://picsum.photos/100?random=${i}`}
-                      alt="Attendee"
-                      className="w-10 h-10 rounded-full border-2 border-black"
-                    />
-                  ))}
+                  <img
+                    key={i}
+                    src={`https://randomuser.me/api/portraits/men/${i}.jpg`}
+                    alt="Attendee"
+                    className="w-10 h-10 rounded-full border-2 border-black"
+                  />
+                ))}
 
               </div>
               <div className="ml-4 flex items-center text-gray-300">
